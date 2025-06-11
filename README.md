@@ -32,12 +32,3 @@ It includes modern web elements like:
 
 👉 View it live here:  
 https://basak-anushka13.github.io/my-startup/
-
----
-
-## 🛠️ How to Use
-
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/yourusername/startup-landing-page.git
-2. Open index.html in any browser.
