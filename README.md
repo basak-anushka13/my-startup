@@ -31,7 +31,7 @@ It includes modern web elements like:
 ## 🔗 Live Demo
 
 👉 View it live here:  
-[https://yourusername.github.io/startup-landing-page](https://yourusername.github.io/startup-landing-page)
+https://basak-anushka13.github.io/my-startup/
 
 ---
 
