@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Startup Name</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   <div class="theme-toggle" id="themeToggle" onclick="toggleTheme()">
+  <span id="themeIcon">🌙</span>
+</div>
+    <div class="scroll-banner">
+  <span>🔥 Limited Time Pricing – Grab It Now! 🔥</span>
+</div>
+    <div class="background-gif"></div>
+<!-- Vortex Background SVG -->
+<div class="vortex-background"></div>
+
+  <!-- Hero Section -->
+<section class="hero">
+  <h1>Welcome to Vortexium</h1>
+  <p>We build immersive game worlds with powerful stories and next-gen graphics.</p>
+  <a href="#contact" class="cta-button">Start Your Quest</a>
+</section>
+
+<!-- Features Section -->
+<section class="features">
+  <h2>What We Offer</h2>
+  <div class="feature">
+    <h3>Game Development</h3>
+    <p>AAA-quality 2D/3D games built with Unity & Unreal Engine.</p>
+  </div>
+  <div class="feature">
+    <h3>Game Design</h3>
+    <p>Storytelling, mechanics, and UI/UX that players love.</p>
+  </div>
+  <div class="feature">
+    <h3>Publishing & Marketing</h3>
+    <p>Launch support, trailers, and global promotion.</p>
+  </div>
+</section>
+<section class="extra-features">
+  <h2>Features</h2>
+  <ul>
+    <li><strong>✔️ Feature A:</strong> Premium tools for pro users.</li>
+    <li><strong>✔️ Feature B:</strong> Early access to new updates.</li>
+    <li><strong>✔️ Feature C:</strong> Faster, smoother experience.</li>
+    <li><strong>✔️ Everything in Basic:</strong> All free plan features included.</li>
+    <li><strong>✔️ Priority Support:</strong> Get help before anyone else.</li>
+  </ul>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials">
+  <h2>What Gamers & Clients Say</h2>
+  <div class="testimonial">
+    <p>"Vortexium built us a dream world. Incredible graphics and a story that hooks players!"</p>
+    <span>— Luna, Creative Director at SkyDream</span>
+  </div>
+  <div class="testimonial">
+    <p>"Best team I’ve ever worked with. We launched on Steam in record time!"</p>
+    <span>— Arjun, Indie Game Developer</span>
+  </div>
+</section>
+<!-- Pricing Section -->
+  <div class="pricing">
+  <h2>Our Plans</h2>
+  <div class="pricing-cards-wrapper">
+    <div class="pricing-card">
+      <h3>Basic</h3>
+      <p>$9/mo</p>
+      <ul>
+        <li>Feature A</li>
+        <li>Feature B</li>
+      </ul>
+      <button class="cta-button">Choose Plan</button>
+    </div>
+    
+    <div class="pricing-card">
+      <h3>Pro</h3>
+      <p>$19/mo</p>
+      <ul>
+        <li>Everything in Basic</li>
+        <li>Feature C</li>
+      </ul>
+      <button class="cta-button">Choose Plan</button>
+    </div>
+    
+    <div class="pricing-card">
+      <h3>Ultimate</h3>
+      <p>$29/mo</p>
+      <ul>
+        <li>All Features</li>
+        <li>Priority Support</li>
+      </ul>
+      <button class="cta-button">Choose Plan</button>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <p>Ready to level up your game idea? Drop us a message!</p>
+<form action="https://formsubmit.co/basakanu1313@gmail.com" method="POST">
+  <input type="hidden" name="_captcha" value="false">
+  
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" required></textarea>
+  
+  <button type="submit">Send Message</button>
+</form>
+</section>
+<script>
+  function toggleTheme() {
+    const body = document.body;
+    const icon = document.getElementById("themeIcon");
+
+    body.classList.toggle("light-mode");
+
+    if (body.classList.contains("light-mode")) {
+      icon.textContent = "☀️";
+    } else {
+      icon.textContent = "🌙";
+    }
+  }
+</script>
+
+
+</body>
+</html>
+<footer class="footer">
+  <div class="social-icons">
+    <a href="https://www.instagram.com/basak_anushka.13/profilecard/?igsh=Y3R5cnZkZHI2a3ds" target="_blank">Instagram</a>
+    <a href="https://linkedin.com/in/anushka-basak-39b2a525a" target="_blank">LinkedIn</a>
+  </div>
+  <p>&copy; 2025 Vortexium. All rights reserved.</p>
+</footer>
