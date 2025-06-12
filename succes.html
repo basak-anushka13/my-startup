@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Payment Successful</title>
+  <style>
+    body {
+      background-color: #0f0f1a;
+      color: #00ffcc;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      animation: glow 1.5s infinite alternate;
+    }
+    p {
+      font-size: 1.2em;
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 5px #00ffcc; }
+      to { text-shadow: 0 0 20px #00ffcc; }
+    }
+  </style>
+  <script>
+    setTimeout(function() {
+      window.location.href = "index.html";
+    }, 4000); // Redirect after 4 seconds
+  </script>
+</head>
+<body>
+  <h1>✅ Payment Successful!</h1>
+  <p>Redirecting to homepage...</p>
+</body>
+</html>
