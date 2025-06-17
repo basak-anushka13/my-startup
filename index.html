@@ -26,7 +26,8 @@
 <audio autoplay loop muted playsinline>
   <source src="back.mp3" type="audio/mpeg"/>
 </audio>
-
+<audio id="bg-audio" src="back.mp3" loop></audio>
+<button id="play-audio">▶️ Play Music</button>
 <!-- Features Section -->
 <section class="features">
   <h2>What We Offer</h2>
@@ -129,12 +130,12 @@
       icon.textContent = "🌙";
     }
   }
-  window.addEventListener('load', () => {
-    const audio = new Audio('back.mp3');
-    audio.loop = true;
-    audio.play().catch(err => {
-      console.log('Autoplay blocked:', err);
-    });
+
+  const audio = document.getElementById("bg-audio");
+  const btn = document.getElementById("play-audio");
+  btn.addEventListener('click', () => {
+    audio.play().catch(console.error);
+    btn.style.display = 'none';
   });
 </script>
 </body>
