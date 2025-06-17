@@ -129,9 +129,14 @@
       icon.textContent = "🌙";
     }
   }
+  window.addEventListener('load', () => {
+    const audio = new Audio('back.mp3');
+    audio.loop = true;
+    audio.play().catch(err => {
+      console.log('Autoplay blocked:', err);
+    });
+  });
 </script>
-
-
 </body>
 </html>
 <footer class="footer">
